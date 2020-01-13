@@ -4,7 +4,6 @@ public class TestUser {
 
     private String ID;
     private String FIRSTNAME;
-
     private String LASTNAME;
 
     public String getID() {
@@ -31,6 +30,8 @@ public class TestUser {
         this.LASTNAME = LASTNAME;
     }
 
+    public TestUser() {}
+
     @Override
     public String toString() {
         return "{" +
@@ -39,11 +40,4 @@ public class TestUser {
                 ", LASTNAME='" + LASTNAME + '\'' +
                 '}';
     }
-
-    public TestUser(String ID, String FIRSTNAME, String LASTNAME) {
-        this.ID = ID;
-        this.FIRSTNAME = FIRSTNAME;
-        this.LASTNAME = LASTNAME;
-    }
-
 }
