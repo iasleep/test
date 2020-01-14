@@ -1,4 +1,6 @@
-import utils.RandomUtils;
+package com.test.app;
+
+import com.test.app.utils.RandomUtils;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

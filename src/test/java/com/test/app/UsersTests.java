@@ -1,8 +1,10 @@
+package com.test.app;
+
 import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import utils.RandomUtils;
+import com.test.app.utils.RandomUtils;
 
 import java.io.IOException;
 import java.sql.SQLException;

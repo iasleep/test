@@ -1,4 +1,4 @@
-import java.util.List;
+package com.test.app;
 
 public class TestUser {
 
